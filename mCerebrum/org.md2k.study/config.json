@@ -188,6 +188,7 @@
     }
   ],
   "admin_view": {
+	  "password": "1234",
     "view_contents": [
       {
         "id": "key_configure_app",
