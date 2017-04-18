@@ -133,16 +133,6 @@
       "class_name": "org.md2k.study.model_view.clear_data.ActivityClearData"
     },
     {
-      "id": "app_service",
-      "type": "setup",
-      "enable": false,
-      "name": "Running Apps",
-      "rank": 3,
-      "icon":"ic_apps_teal_48dp",
-      "package_name": "org.md2k.study",
-      "class_name": "org.md2k.study.model_view.app_service.ActivityService"
-    },
-    {
       "id": "data_quality",
       "rank": 2,
       "enable": true,
