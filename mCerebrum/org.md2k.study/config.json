@@ -225,7 +225,7 @@
       {
         "id": "key_other",
         "name": "Others",
-        "enable": true,
+        "enable": false,
         "values": [
           "app_service"
         ]
