@@ -4,7 +4,7 @@
     "version": "1.4.4",
     "name": "PSU eJournal Study",
     "filename": "eJournal",
-    "auto_update":true,
+    "auto_update":false,
     "required_files": [
       "org.md2k.microsoftband/default_config.json",
       "org.md2k.study/config.json"
@@ -221,16 +221,6 @@
           "user_info",
           "clear_database"
         ]
-      },
-      {
-        "id": "key_start_study",
-        "name": "Start Study",
-        "enable": true
-      },
-      {
-        "id": "key_stop_study",
-        "name": "Stop Study",
-        "enable": true
       },
       {
         "id": "key_other",
