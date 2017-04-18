@@ -11,9 +11,9 @@
     ]
   },
   "start_screen": {
-    "update_app": true,
-    "md2k_logo": true,
-    "md2k_link": true,
+    "update_app": false,
+    "md2k_logo": false,
+    "md2k_link": false,
     "config_text": true
   },
   "apps": [
@@ -198,7 +198,6 @@
     }
   ],
   "admin_view": {
-	  "password": "1234"
     "view_contents": [
       {
         "id": "key_configure_app",
@@ -245,6 +244,10 @@
   },
   "user_view": {
     "view_contents": [
+      {
+        "id": "study_start_end",
+        "enable": true
+      },
       {
         "id": "user_app",
         "enable": true,
