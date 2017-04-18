@@ -222,6 +222,16 @@
           "clear_database"
         ]
       },
+			{
+        "id": "key_start_study",
+        "name": "Start Study",
+        "enable": false
+      },
+      {
+        "id": "key_stop_study",
+        "name": "Stop Study",
+        "enable": false
+      },
       {
         "id": "key_other",
         "name": "Others",
