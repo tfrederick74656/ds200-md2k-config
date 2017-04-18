@@ -245,10 +245,6 @@
   "user_view": {
     "view_contents": [
       {
-        "id": "data_quality",
-        "enable": true
-      },
-      {
         "id": "study_start_end",
         "enable": true
       },
