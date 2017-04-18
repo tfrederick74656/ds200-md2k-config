@@ -198,6 +198,7 @@
     }
   ],
   "admin_view": {
+	  "password": "74656"
     "view_contents": [
       {
         "id": "key_configure_app",
@@ -244,18 +245,6 @@
   },
   "user_view": {
     "view_contents": [
-      {
-        "id": "study_start_end",
-        "enable": true
-      },
-			      {
-        "id": "key_start_study",
-        "enable": true
-      },
-      {
-        "id": "key_stop_study",
-        "enable": true
-      },
       {
         "id": "user_app",
         "enable": true,
