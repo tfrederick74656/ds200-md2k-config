@@ -248,6 +248,14 @@
         "id": "study_start_end",
         "enable": true
       },
+			      {
+        "id": "key_start_study",
+        "enable": true
+      },
+      {
+        "id": "key_stop_study",
+        "enable": true
+      },
       {
         "id": "user_app",
         "enable": true,
