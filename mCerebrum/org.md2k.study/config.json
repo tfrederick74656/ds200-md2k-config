@@ -135,7 +135,7 @@
     {
       "id": "app_service",
       "type": "setup",
-      "enable": true,
+      "enable": false,
       "name": "Running Apps",
       "rank": 3,
       "icon":"ic_apps_teal_48dp",
