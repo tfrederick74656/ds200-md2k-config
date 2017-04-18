@@ -213,6 +213,16 @@
         ]
       }
     ]
+			{
+				"id": "key_start_study",
+				"name": "Start Study",
+				"enable": true
+			},
+			{
+				"id": "key_stop_study",
+				"name": "Stop Study",
+				"enable": true
+			}
   },
   "user_view": {
     "view_contents": [
