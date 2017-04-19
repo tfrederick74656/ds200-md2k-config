@@ -5,6 +5,24 @@
     },
     "type": "DATA_QUALITY"
   },
+	 {
+    "platform": {
+      "type": "MICROSOFT_BAND"
+    },
+    "metadata": {
+      "FREQUENCY": "8"
+    },
+    "type": "ACCELEROMETER"
+  },
+  {
+    "platform": {
+      "type": "MICROSOFT_BAND"
+    },
+    "metadata": {
+      "FREQUENCY": "8"
+    },
+    "type": "GYROSCOPE"
+  },
  {
     "platform": {
       "type": "MICROSOFT_BAND"
