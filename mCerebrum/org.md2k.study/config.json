@@ -4,16 +4,16 @@
     "version": "1.4.4",
     "name": "PSU eJournal Study",
     "filename": "eJournal",
-    "auto_update":false,
+    "auto_update":true,
     "required_files": [
       "org.md2k.microsoftband/default_config.json",
       "org.md2k.study/config.json"
     ]
   },
   "start_screen": {
-    "update_app": false,
-    "md2k_logo": false,
-    "md2k_link": false,
+    "update_app": true,
+    "md2k_logo": true,
+    "md2k_link": true,
     "config_text": true
   },
   "apps": [
@@ -133,9 +133,19 @@
       "class_name": "org.md2k.study.model_view.clear_data.ActivityClearData"
     },
     {
+      "id": "app_service",
+      "type": "setup",
+      "enable": true,
+      "name": "Running Apps",
+      "rank": 3,
+      "icon":"ic_apps_teal_48dp",
+      "package_name": "org.md2k.study",
+      "class_name": "org.md2k.study.model_view.app_service.ActivityService"
+    },
+    {
       "id": "data_quality",
       "rank": 2,
-      "enable": true,
+      "enable": false,
       "name": "Sensor Data Quality"
     },
     {
@@ -212,7 +222,7 @@
           "clear_database"
         ]
       },
-			{
+      {
         "id": "key_start_study",
         "name": "Start Study",
         "enable": true
@@ -225,7 +235,7 @@
       {
         "id": "key_other",
         "name": "Others",
-        "enable": false,
+        "enable": true,
         "values": [
           "app_service"
         ]
@@ -234,6 +244,10 @@
   },
   "user_view": {
     "view_contents": [
+      {
+        "id": "data_quality",
+        "enable": false
+      },
       {
         "id": "study_start_end",
         "enable": true
