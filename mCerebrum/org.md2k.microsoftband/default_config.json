@@ -5,25 +5,7 @@
     },
     "type": "DATA_QUALITY"
   },
-	 {
-    "platform": {
-      "type": "MICROSOFT_BAND"
-    },
-    "metadata": {
-      "FREQUENCY": "31"
-    },
-    "type": "ACCELEROMETER"
-  },
   {
-    "platform": {
-      "type": "MICROSOFT_BAND"
-    },
-    "metadata": {
-      "FREQUENCY": "31"
-    },
-    "type": "GYROSCOPE"
-  },
- {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
@@ -47,25 +29,25 @@
     },
     "type": "SKIN_TEMPERATURE"
   },
- {
+  {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
     "type": "ULTRA_VIOLET_RADIATION"
   },
- {
+  {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
     "type": "BAND_CONTACT"
   },
- {
+  {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
     "type": "CALORY_BURN"
   },
- {
+  {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
@@ -77,37 +59,37 @@
     },
     "type": "RR_INTERVAL"
   },
- {
+  {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
     "type": "AMBIENT_LIGHT"
   },
- {
+  {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
     "type": "AIR_PRESSURE"
   },
- {
+  {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
     "type": "ALTIMETER"
   },
- {
+  {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
     "type": "MOTION_TYPE"
   },
- {
+  {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
     "type": "PACE"
   },
- {
+  {
     "platform": {
       "type": "MICROSOFT_BAND"
     },
