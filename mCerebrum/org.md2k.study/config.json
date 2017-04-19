@@ -212,7 +212,6 @@
           "clear_database"
         ]
       }
-    ]
 			{
 				"id": "key_start_study",
 				"name": "Start Study",
@@ -223,6 +222,7 @@
 				"name": "Stop Study",
 				"enable": true
 			}
+    ]
   },
   "user_view": {
     "view_contents": [
