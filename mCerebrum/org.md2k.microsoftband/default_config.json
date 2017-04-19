@@ -10,7 +10,7 @@
       "type": "MICROSOFT_BAND"
     },
     "metadata": {
-      "FREQUENCY": "8"
+      "FREQUENCY": "31"
     },
     "type": "ACCELEROMETER"
   },
@@ -19,7 +19,7 @@
       "type": "MICROSOFT_BAND"
     },
     "metadata": {
-      "FREQUENCY": "8"
+      "FREQUENCY": "31"
     },
     "type": "GYROSCOPE"
   },
