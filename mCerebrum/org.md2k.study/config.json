@@ -7,6 +7,7 @@
     "auto_update":true,
     "required_files": [
       "org.md2k.microsoftband/default_config.json",
+			"org.md2k.phonesensor/default_config.json",
       "org.md2k.study/config.json"
     ]
   },
@@ -48,6 +49,18 @@
       "config": "config.json",
       "default_config": "default_config.json",
       "download_link": "https://github.com/MD2Korg/mCerebrum-MicrosoftBand/releases"
+    },
+		{
+      "id": "phonesensor",
+      "name": "PhoneSensor",
+      "enable": true,
+      "package_name": "org.md2k.phonesensor",
+      "service": "org.md2k.phonesensor.ServicePhoneSensor",
+      "settings": "org.md2k.phonesensor.ActivityPhoneSensorSettings",
+      "config": "config.json",
+      "default_config": "default_config.json",
+      "permission": "org.md2k.utilities.permission.ActivityPermission",
+      "download_link": "https://github.com/MD2Korg/mCerebrum-PhoneSensor/releases"
     }
   ],
   "actions": [
