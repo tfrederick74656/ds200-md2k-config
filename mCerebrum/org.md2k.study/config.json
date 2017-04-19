@@ -211,17 +211,25 @@
           "user_info",
           "clear_database"
         ]
+      },
+			{
+        "id": "key_start_study",
+        "name": "Start Study",
+        "enable": true
+      },
+      {
+        "id": "key_stop_study",
+        "name": "Stop Study",
+        "enable": true
+      },
+      {
+        "id": "key_other",
+        "name": "Others",
+        "enable": false,
+        "values": [
+          "app_service"
+        ]
       }
-			{
-				"id": "key_start_study",
-				"name": "Start Study",
-				"enable": true
-			},
-			{
-				"id": "key_stop_study",
-				"name": "Stop Study",
-				"enable": true
-			}
     ]
   },
   "user_view": {
